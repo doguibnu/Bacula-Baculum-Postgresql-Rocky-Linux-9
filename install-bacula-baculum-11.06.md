@@ -496,3 +496,15 @@ Reiniciar o sistema:
 ```
 reboot
 ```
+
+**Configuração da API do Baculum**
+http://IP-server:9096
+user: admin
+senha: admin
+
+**Configuração Baculum web**
+http://IP-server:9095
+user: admin
+senha: admin
+
+
