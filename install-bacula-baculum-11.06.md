@@ -351,7 +351,7 @@ cd /var/www/html/baculumtemp/bacula-gui-11.0.6
 make build DESTDIR=/tmp/baculum-files WWWDIR=/srv/www/htdocs/baculum
 Então, seguindo o exemplo acima, faça o comando:**
 
-# Sendo **DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum** e **WWWDIR=/srv/www/htdocs/baculum**
+### Sendo **DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum** e **WWWDIR=/srv/www/htdocs/baculum**
 
 ```
 make build DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum WWWDIR=/srv/www/htdocs/baculum 
