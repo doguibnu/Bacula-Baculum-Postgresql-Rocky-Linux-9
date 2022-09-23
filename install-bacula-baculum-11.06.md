@@ -299,7 +299,8 @@ reboot
 ```
 
 Testando o Bacula
-Lembrando que os serviços do Postgresql e Bacula devem estar ativos. Verificar com os comandos:
+
+Lembrando que os serviços do **Postgresql** e **Bacula** devem estar ativos. Verificar com os comandos:
 ```
 systemctl status bacula.service
 systemctl status postgresq
