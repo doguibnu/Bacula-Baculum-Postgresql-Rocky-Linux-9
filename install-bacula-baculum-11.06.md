@@ -226,7 +226,7 @@ host    all             all             ::1/128           
 
 ```
 # "local" is for Unix domain socket connections only
-local   all             all                                   **md5**
+local   all             all                                    md5
 # IPv4 local connections:
 host    all             all             127.0.0.1/32            trust
 # IPv6 local connections:
@@ -235,22 +235,23 @@ host    all             all             ::1/128                 trust
 # replication privilege.
 ```
 
-Editar o arquivo bacula-dir.conf e inserir as credenciais para se conectar a porta 5432:
+Editar o arquivo **bacula-dir.conf** e inserir as credenciais para se conectar a porta 5432:
 ```
 nano /opt/bacula/etc/bacula-dir.conf
 ```
 
-Procurar pela linha Catalog e insira as linhas como abaixo:
+Procurar pela linha **Catalog** e insira as linhas como abaixo:
 ```
 Catalog {  
 Name = MyCatalog  
 dbdriver = "postgresql"; dbaddress = 127.0.0.1; dbport = 5432  
 dbname = "bacula"; dbuser = "bacula"; dbpassword = "bacula"
 }
-
-Salvar o arquivo
 ```
-## Fazer um arquivo Unit do serviço Bacula
+Salvar o arquivo
+
+
+## Fazer um arquivo Unit do serviço Bacula:
 
 Mudar para o diretório:
 ```
@@ -274,8 +275,8 @@ ExecStop=/opt/bacula/scripts/bacula stop
 
 [Install]  
 WantedBy=multi-user.target
-Salvar o arquivo
 ```
+Salvar o arquivo
 
 Recarregar o daemon do systemd:
 ```
@@ -348,11 +349,13 @@ cd /var/www/html/baculumtemp/bacula-gui-11.0.6
 ```
 
 **Preparar o DESTINO temporário e construção de arquivos. Utilizar o comando:
-make build DESTDIR=/tmp/baculum-files WWWDIR=/srv/www/htdocs/baculum
-Então, seguindo o exemplo acima, faça o comando:**
+make build DESTDIR=/tmp/baculum-files WWWDIR=/srv/www/htdocs/baculum**
 
+Seguindo o exemplo acima, faça o comando:
 
-### Sendo **DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum** e **WWWDIR=/srv/www/htdocs/baculum**
+#### Sendo **DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum** e **WWWDIR=/srv/www/htdocs/baculum**
+
+Então:
 
 ```
 make build DESTDIR=/var/www/html/baculumtemp/bacula-gui-11.0.6/baculum WWWDIR=/srv/www/htdocs/baculum 
@@ -498,12 +501,15 @@ reboot
 ```
 
 **Configuração da API do Baculum**
-http://IP-server:9096
+```
+htt`p://IP-server:9096
 user: admin
 senha: admin
+```
 
 **Configuração Baculum web**
-http://IP-server:9095
+```
+htt`p://IP-server:9095
 user: admin
 senha: admin
 
