@@ -1,4 +1,4 @@
-## Instalar Bacula e Baculum 11.06 no Rocky Linux 9.0 ##
+## Instalar Bacula e Baculum 11.06 com Postgresql no Rocky Linux 9.0 ##
 
 **Todos os comandos serão com usuário root**
 
