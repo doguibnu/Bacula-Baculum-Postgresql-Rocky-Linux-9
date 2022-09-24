@@ -503,14 +503,14 @@ reboot
 
 **Configuração da API do Baculum**
 ```
-htt`p://IP-server:9096
+http://IP-server:9096
 user: admin
 senha: admin
 ```
 
 **Configuração Baculum web**
 ```
-htt`p://IP-server:9095
+http://IP-server:9095
 user: admin
 senha: admin
 
