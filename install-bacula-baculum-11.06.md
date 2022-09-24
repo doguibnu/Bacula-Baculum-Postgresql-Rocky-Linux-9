@@ -201,9 +201,9 @@ listen_addresses = '*'
 De: #port = 5432
 Para:
 port = 5432
-
-Salvar e sair do arquivo
 ```
+Salvar e sair do arquivo
+
 
 Editar o arquivo **/var/lib/pgsql/data/pg_hba.conf**:
 
@@ -234,6 +234,7 @@ host    all             all             ::1/128                 trust
 # Allow replication connections from localhost, by a user with the
 # replication privilege.
 ```
+Salvar e sair do arquivo
 
 Editar o arquivo **bacula-dir.conf** e inserir as credenciais para se conectar a porta 5432:
 ```
@@ -248,7 +249,7 @@ dbdriver = "postgresql"; dbaddress = 127.0.0.1; dbport = 5432
 dbname = "bacula"; dbuser = "bacula"; dbpassword = "bacula"
 }
 ```
-Salvar o arquivo
+Salvar e sair do arquivo
 
 
 ## Fazer um arquivo Unit do serviço Bacula:
