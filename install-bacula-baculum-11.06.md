@@ -308,6 +308,17 @@ systemctl status bacula.service
 systemctl status postgresq
 ```
 
+Abra o terminal e chame o bconsole
+```
+# bconsole
+Connecting to Director 10.1.1.23:9101
+1000 OK: 10002 srvbacula.xxx-dir Version: 11.0.6 (10 March 2022)
+Enter a period to cancel a command.
+*
+```
+Se o asterísco * aparecer, o bacula está funcional.
+
+
 ## Instalar Baculum 11.06 Rocky Linux 9.0
 
 
@@ -514,4 +525,7 @@ http://IP-server:9095
 user: admin
 senha: admin
 
+Fontes
 
+
+Instalação [Bacula](https://www.bacula.lat/community/comandos-de-compilacao/)
