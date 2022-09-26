@@ -319,6 +319,7 @@ Enter a period to cancel a command.
 Se o asterísco * aparecer, o bacula está funcional.
 
 
+
 ## Instalar Baculum 11.06 Rocky Linux 9.0
 
 
@@ -476,9 +477,8 @@ Editar o arquivo **/etc/httpd/conf.d/baculum-api.conf** e alterar as linhas:
 nano /etc/httpd/conf.d/baculum-api.conf
 CustomLog /var/log/apache2/apierror/baculum-api-access.log combined
 ErrorLog /var/log/apache2/apierrorlog/baculum-api-error.log
-
-Salvar o arquivo
 ```
+Salvar o arquivo
 
 Criar um diretório em **/var/log/apache2/weberror** e **/var/log/apache2/weberrorlog:**
 ```
@@ -490,9 +490,8 @@ Editar o arquivo **/etc/httpd/conf.d/baculum-web.conf** e alterar as linhas:
 nano /etc/httpd/conf.d/baculum-web.conf
 CustomLog /var/log/apache2/weberror/baculum-web-access.log combined
 ErrorLog /var/log/apache2/weberrorlog/baculum-web-error.log
-
-Salvar o arquivo
 ```
+Salvar o arquivo
 
 Abrir portas **9095** e **9096** no firewall e recarregar firewall:
 ```
@@ -504,9 +503,9 @@ Desabilitar o SELinux com o comando:
 ```
 nano /etc/sysconfig/selinux
 Setar SELINUX=enforcing para SELINUX=disbaled
-
-Salvar o arquivo
 ```
+Salvar o arquivo
+
 Reiniciar o sistema:
 ```
 reboot
