@@ -524,8 +524,8 @@ senha: admin
 http://IP-server:9095
 user: admin
 senha: admin
+```
 
-Fontes
-
+Fontes:
 
 Instalação [Bacula](https://www.bacula.lat/community/comandos-de-compilacao/)
