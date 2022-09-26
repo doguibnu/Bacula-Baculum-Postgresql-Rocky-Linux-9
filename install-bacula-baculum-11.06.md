@@ -529,3 +529,12 @@ senha: admin
 Fontes:
 
 Instalação [Bacula](https://www.bacula.lat/community/comandos-de-compilacao/)
+
+[Wanderlei Huttel](https://github.com/wanderleihuttel/bacula-utils/tree/master/tutorial)
+
+Instalação Baculum
+
+[Instalação Manual do Baculum](https://baculum.app/doc/brief/installation.html#manual-installation)
+
+[Site Bacula.lat](https://www.bacula.lat/community/baculum/)
+
