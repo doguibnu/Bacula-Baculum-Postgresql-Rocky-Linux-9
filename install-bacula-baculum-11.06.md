@@ -1,6 +1,6 @@
 ## Instalar Bacula e Baculum 11.06 com Postgresql no Rocky Linux 9.0 ##
 
-**Todos os comandos serão com usuário root**
+**Todos os comandos serão com usuário root**.
 
 Fazer update e upgrade do sistema:
 ```
@@ -317,6 +317,7 @@ Enter a period to cancel a command.
 *
 ```
 Se o asterísco * aparecer, o bacula está funcional.
+
 
 
 
