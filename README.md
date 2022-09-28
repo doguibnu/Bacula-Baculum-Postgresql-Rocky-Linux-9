@@ -1,5 +1,5 @@
-### Como Instalar Bacula e Baculum 11.06 com Postgresql no Rocky Linux 9.0 
-### How to install Bacula and Baculum 11.06 with Postgresql on Rocky Linux 9.0
+### Como Instalar Bacula e Baculum 11.06 com Postgresql no Rocky Linux 9.0.
+### How to install Bacula and Baculum 11.06 with Postgresql on Rocky Linux 9.0.
 
 
 Será abordado passos para a instalação e compilção do Bacula e a instalação manual do Baculum na versão 11.06 com o Postgresql
